@@ -1,0 +1,2 @@
+* precisamos instalar o virtualenv, entrar no venv usando "source venv/bin/activate"
+* para sair do venv "deactivate"
