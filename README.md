@@ -5,6 +5,8 @@ Aplicação robusta, feita para consolidar meus conhecimentos com essa tecnologi
 ##Instalação:
 
     * necessita de python3.8
+    * necessita instalar o virtualenv no seu sistema
+    * criar um virtualenv e acessa-lo
     * instalar os modulos: pip3 install -r requirements.txt
     * para rodar: python3 app.py
     * roda no localhost porta 5000 
