@@ -2,8 +2,8 @@ from sql_alchemy import database
 from flask import request, url_for
 from requests import post
 
-MAILGUN_DOMAIN = 'sandbox9a5e08fb2aa74a77a5b8c03c726e9369.mailgun.org'
-MAINGUN_API_KEY = '011eb42674d6bb3bab8bca1f80166641-4d640632-d36e391e'
+MAILGUN_DOMAIN = 'seu_dominio_mailgun'
+MAINGUN_API_KEY = 'sua_api_key'
 FROM_TITLE = 'NO REPLY'
 FROM_EMAIL = 'no-reply@apihotels.com'
 
