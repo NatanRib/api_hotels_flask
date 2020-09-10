@@ -79,5 +79,3 @@ class UserModel(database.Model):
             }
         )
 
-    antonio cote 84 - esquina com a sp
-    orcar mailho 3341 1427
