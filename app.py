@@ -1,7 +1,7 @@
 from flask import Flask, jsonify
 from flask_restful import Resource, Api
 from resources.hotel_resource import Hoteis, Hotel
-from resources.user_resource import User, UserRegister, UserLogin, UserAll, UserLoggout #apagar
+from resources.user_resource import User, UserRegister, UserLogin, UserAll, UserLoggout, UserActivate #apagar
 from resources.site_resource import Sites, Site
 from flask_jwt_extended import JWTManager
 from blacklist import BLASKLIST
@@ -31,6 +31,7 @@ api.add_resource(Hotel, '/hotels/<hotel_id>')
 api.add_resource(User, '/user/<user_login>')
 api.add_resource(UserRegister, '/singup')
 api.add_resource(UserLogin, '/login')
+api.add_resource(UserActivate, '/users/activate/<user_id>')
 api.add_resource(UserAll, '/users') #apagar
 api.add_resource(UserLoggout, '/logout')
 api.add_resource(Sites, '/sites')
